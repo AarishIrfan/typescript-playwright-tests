@@ -96,6 +96,5 @@ report/
 ## Resources
 
 * [Playwright Documentation](https://playwright.dev/)
-* [Test Automation University – Playwright](https://testautomationu.applitools.com/playwright-tutorial/)
-* [Applitools Visual Testing](https://applitools.com/)
+  
 
