@@ -1,16 +1,9 @@
-Sure! Here's your full `README.md` content in **Markdown format**, completely ready for copy-pasting — no wrapping inside triple backticks, just the raw file content as you would paste it into a `README.md` file:
-
----
-
 # typescript-playwright-tests
 
 Automated end-to-end (E2E) and UI testing using Playwright with TypeScript.
 Includes real-world test cases like TodoMVC and OrangeHRM login, structured with best practices: Page Object Model, reporting, screenshots, and trace handling.
 
----
-
 ## Features
-
 * TypeScript for strong typing and cleaner code
 * Cross-browser testing (Chromium, Firefox, WebKit) via Playwright
 * Page Object Model (POM) for modular test structure
@@ -20,10 +13,7 @@ Includes real-world test cases like TodoMVC and OrangeHRM login, structured with
 * Headed/fullscreen browser test option
 * `.env` support for API keys and credentials
 
----
-
 ## Project Structure
-
 ```
 ├── tests/                 # Test specs
 ├── pages/                 # Page Object Models
@@ -32,8 +22,6 @@ Includes real-world test cases like TodoMVC and OrangeHRM login, structured with
 ├── report/                # HTML test reports
 └── .env                   # Environment variables (optional)
 ```
-
----
 
 ## Setup
 
@@ -44,8 +32,6 @@ Includes real-world test cases like TodoMVC and OrangeHRM login, structured with
    npm install
    ```
 3. (Optional) Create a `.env` file for secrets (API keys, credentials)
-
----
 
 ## Running Tests
 
@@ -73,21 +59,15 @@ Includes real-world test cases like TodoMVC and OrangeHRM login, structured with
   npx playwright show-report
   ```
 
----
-
 ## Screenshots & Traces
 
 * Screenshots are taken for all tests (pass/fail)
 * Traces are saved for failed tests
 * Open the HTML report to view them
 
----
-
 ## Page Object Model
 
 All UI elements and interactions are encapsulated in separate classes under the `pages/` folder for better maintainability and reusability.
-
----
 
 ## Debugging
 
@@ -103,8 +83,6 @@ All UI elements and interactions are encapsulated in separate classes under the 
   npx playwright test --ui
   ```
 
----
-
 ## .gitignore
 
 Recommended `.gitignore` entries:
@@ -115,27 +93,9 @@ test-results/
 report/
 .env
 ```
-
----
-
 ## Resources
 
 * [Playwright Documentation](https://playwright.dev/)
 * [Test Automation University – Playwright](https://testautomationu.applitools.com/playwright-tutorial/)
 * [Applitools Visual Testing](https://applitools.com/)
 
----
-
-## Author
-
-**Aarish Irfan**
-
----
-
-## License
-
-MIT
-
----
-
-Let me know if you want this extended with sections for CI/CD, badges, or advanced integrations.
